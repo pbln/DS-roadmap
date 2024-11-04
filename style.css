@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+    color: #1e1e38;
+}
+
+.logo{
+    margin-top: 0px;
+    margin-bottom: 22px;
+}
+.logo img{
+width: 100px;
+height: 100px;
+}
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-image: url(Frame\ 26.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70%;
+    height: 70%;
+   
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 0.45em;
+    gap: 0px;
+}
+
+#countdown div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+#countdown div:first-child {
+    border-left: none;
+}
+
+#countdown span {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#countdown .label {
+    font-size: 0.5em;
+    margin-top: 5px;
+    color: #474313;
+}
+
